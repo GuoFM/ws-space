@@ -1,0 +1,8 @@
+prefix=/home/agilex/catkin_ws/devel
+
+Name: scout_visions
+Description: Description of scout_visions
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agilex/catkin_ws/src/imu/serial_imu/src/imu_data_decode.c
+string.h
+-
+stdio.h
+-
+packet.h
+/home/agilex/catkin_ws/src/imu/serial_imu/src/packet.h
+imu_data_decode.h
+/home/agilex/catkin_ws/src/imu/serial_imu/src/imu_data_decode.h
+
+/home/agilex/catkin_ws/src/imu/serial_imu/src/imu_data_decode.h
+stdint.h
+-
+stdbool.h
+-
+
+/home/agilex/catkin_ws/src/imu/serial_imu/src/packet.c
+string.h
+-
+stdio.h
+-
+packet.h
+/home/agilex/catkin_ws/src/imu/serial_imu/src/packet.h
+
+/home/agilex/catkin_ws/src/imu/serial_imu/src/packet.h
+stdint.h
+-
+stdbool.h
+-
+

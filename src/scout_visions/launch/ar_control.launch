@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find scout_base)/launch/scout_mini_base.launch" />
+    <include file="$(find scout_visions)/launch/ar_code.launch" />
+    <node name="move_to_target_ar" pkg="scout_visions" type="move_to_target_ar.py" output="screen" />
+</launch>

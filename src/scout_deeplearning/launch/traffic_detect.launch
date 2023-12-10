@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+
+    <node name="detect_traffic_light" pkg="scout_deeplearning" type="traffic_light.py" output="screen" />
+</launch>

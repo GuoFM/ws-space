@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find scout_base)/launch/scout_mini_base.launch" />
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+
+    <node name="object_detect" pkg="scout_visions" type="object_detect.py" output="screen" />
+    <node name="follow_object" pkg="scout_visions" type="follow.py" output="screen" />
+</launch>

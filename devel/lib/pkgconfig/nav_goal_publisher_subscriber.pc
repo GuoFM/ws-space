@@ -1,0 +1,8 @@
+prefix=/home/agilex/catkin_ws/devel
+
+Name: nav_goal_publisher_subscriber
+Description: Description of nav_goal_publisher_subscriber
+Version: 0.0.0
+Cflags: -I/home/agilex/catkin_ws/src/nav_goal_publisher_subscriber/include
+Libs: -L${prefix}/lib 
+Requires: actionlib geometry_msgs move_base_msgs roscpp
